@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="imie">Imię:</label>
+        <input type="text" id="imie" name="imie"><br>
+      
+        <label for="nazwisko">Nazwisko:</label>
+        <input type="text" id="nazwisko" name="nazwisko"><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+      
+        <label>Wydział UG:</label><br>
+        <input type="radio" id="wg" name="wydzial" value="Wydział Geografii"><label for="wg">Wydział Geografii</label><br>
+        <input type="radio" id="weii" name="wydzial" value="Wydział Elektrotechniki, Elektroniki, Informatyki i Automatyki"><label for="weii">Wydział Elektrotechniki, Elektroniki, Informatyki i Automatyki</label><br>
+        <input type="radio" id="wn" name="wydzial" value="Wydział Nauk Społecznych"><label for="wn">Wydział Nauk Społecznych</label><br>
+      
+        <label>Zainteresowania:</label><br>
+        <input type="checkbox" id="sport" name="zainteresowania[]" value="Sport"><label for="sport">Sport</label><br>
+        <input type="checkbox" id="muzyka" name="zainteresowania[]" value="Muzyka"><label for="muzyka">Muzyka</label><br>
+        <input type="checkbox" id="ksiazki" name="zainteresowania[]" value="Książki"><label for="ksiazki">Książki</label><br>
+      
+        <label for="systemy">System operacyjny:</label>
+        <select id="systemy" name="systemy">
+          <option value="Windows" selected>Windows</option>
+          <option value="Linux">Linux</option>
+          <option value="macOS">macOS</option>
+        </select><br>
+      
+        <input type="submit" value="Wyślij">
+      </form>
+      
+</body>
+</html>
